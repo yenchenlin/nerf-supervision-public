@@ -1,0 +1,24 @@
+expname = fork
+basedir = ./logs
+datadir = ./data/fork
+dataset_type = llff
+
+factor = 8
+llffhold = 8
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
+colmap_depth = True
+depth_loss = True
+depth_lambda = 0.1
+
+no_ndc = True
+lindisp = True
+
+i_testset = 10000
+i_video = 50000
