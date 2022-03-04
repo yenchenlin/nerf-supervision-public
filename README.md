@@ -24,6 +24,15 @@ PyTorch implementation of NeRF-Supervision, an RGB-only, self-supervised pipelin
 This repo hosts the code for step (a) Use RGB images to optimize NeRF and (b) Generate dense correspondences. For step (c) Train dense object descriptors, we refer users to [pytorch-dense-correspondence](https://github.com/RobotLocomotion/pytorch-dense-correspondence).
 
 
+### Dependencies
+
+Install the following dependencies before you run the code:
+```
+pip install -r requirements.txt
+```
+
+- [COLMAP](https://colmap.github.io/)
+
 ### How to Run?
 
 In the following, we will use `fork` as an example:
