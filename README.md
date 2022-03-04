@@ -1,6 +1,6 @@
 # NeRF-Supervision
 
-### [Project Page](https://yenchenlin.me/nerf-supervision/) | [Video](https://www.youtube.com/watch?v=_zN-wVwPH1s) | [Paper](https://drive.google.com/file/d/1kNH9z_109olDOhPZK0rLBTpqEyhSIDQ9/view?usp=sharing) | [Data](https://drive.google.com/drive/folders/11uBvHlLfe1kNPUGlsah_OwyRoXK9OOkt?usp=sharing)
+### [Project Page](https://yenchenlin.me/nerf-supervision/) | [Video](https://www.youtube.com/watch?v=_zN-wVwPH1s) | [Paper](https://arxiv.org/abs/2203.01913) | [Data](https://drive.google.com/drive/folders/11uBvHlLfe1kNPUGlsah_OwyRoXK9OOkt?usp=sharing)
 [![Open Tiny-NeRF in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing)<br>
 
 PyTorch implementation of NeRF-Supervision, an RGB-only, self-supervised pipeline for learning object-centric dense descriptors from neural radiance fields (NeRFs).
