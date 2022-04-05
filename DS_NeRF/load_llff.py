@@ -381,6 +381,10 @@ def load_colmap_depth(basedir, factor=8, bd_factor=.75):
         depth_list = []
         coord_list = []
         weight_list = []
+        key_list = images.keys()
+        if id_im not in key_list:
+            continue
+
         for i in range(len(images[id_im].xys)):
             point2D = images[id_im].xys[i]
             id_3D = images[id_im].point3D_ids[i]
